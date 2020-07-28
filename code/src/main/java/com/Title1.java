@@ -54,10 +54,10 @@ public class Title1 {
             } else if (array[row][col] > target) {
                 row--;
             } else {
-                return false;
+                return true;
             }
         }
-        return true;
+        return false;
     }
 }
 //思路三：右上角找起同理

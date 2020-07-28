@@ -45,7 +45,7 @@ public class Title6 {
             if (array[mid] >= array[L]) {//"="是为了防止有相等的数出现，比如[3,4,1,2,2,2]
                 L = mid;//说明mid所在的位置是在第一个非递减子数列中
             } else if (array[mid] <= array[R]) {
-                R = mid;//说明mid所在的位置是在第一个非递减子数列中
+                R = mid;//说明mid所在的位置是在第二非递减子数列中
             }
         }
         return array[R];

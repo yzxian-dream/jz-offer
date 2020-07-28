@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28ff4152-70ce-4845-aa54-9b0429a2d37c" name="Default Changelist" comment="" />
+    <list default="true" id="28ff4152-70ce-4845-aa54-9b0429a2d37c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/Title1.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/Title1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/Title50.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/Title50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/Title51.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/Title51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/Title6.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/Title6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\my_maven\maven_repository" />
+        <option name="mavenHome" value="D:/my_maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\my_maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
   <component name="ProjectId" id="1Z3MEpP1V5sgnlw6M4sE0DeqlqK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,19 +49,19 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/大JAVA家族/2019.7电商/07电商偏好/代码/day15_code/gmall0218" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Ssss">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Ssss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ssss" />
       <module name="code" />
@@ -46,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="search_and_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="title2.search_and_sort" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.Test" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="title2.*" />
+          <option name="PATTERN" value="main.java.com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,57 +82,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="Title2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.Title2" />
       <module name="code" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration name="Title3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.Title3" />
       <module name="code" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Title51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.Title51" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Title3" />
+        <item itemvalue="Application.Title2" />
+        <item itemvalue="Application.Title51" />
         <item itemvalue="Application.Ssss" />
-        <item itemvalue="Application.search_and_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +152,24 @@
       <workItem from="1585455418449" duration="68000" />
       <workItem from="1585455489673" duration="36000" />
       <workItem from="1585455529052" duration="8674000" />
+      <workItem from="1585837150493" duration="5588000" />
+      <workItem from="1585968996925" duration="18346000" />
+      <workItem from="1586247135117" duration="788000" />
+      <workItem from="1586317324495" duration="3632000" />
+      <workItem from="1586420653193" duration="256000" />
+      <workItem from="1586440704178" duration="44021000" />
+      <workItem from="1587044393309" duration="3047000" />
+      <workItem from="1587220169001" duration="1262000" />
+      <workItem from="1587435745612" duration="985000" />
+      <workItem from="1587866099665" duration="912000" />
+      <workItem from="1588166618578" duration="2883000" />
+      <workItem from="1592968064425" duration="13194000" />
+      <workItem from="1593068728999" duration="99368000" />
+      <workItem from="1594190877183" duration="61770000" />
+      <workItem from="1594731352663" duration="36181000" />
+      <workItem from="1595036205465" duration="15718000" />
+      <workItem from="1595380539100" duration="18945000" />
+      <workItem from="1595748783931" duration="2499000" />
     </task>
     <servers />
   </component>
@@ -141,49 +177,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="267" y="51" key="#Project_Structure" timestamp="1584063355281">
+    <state x="275" y="25" key="#Notifications" timestamp="1585839977263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="267" y="51" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1584063355281" />
-    <state x="422" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585406509154">
+    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1585839977263" />
+    <state x="422" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586531852700">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="422" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585406509154" />
-    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1585455956059">
+    <state x="422" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1586531852700" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1593046631783">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585455956059" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585495364620">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593046631783" />
+    <state x="545" y="177" key="FileChooserDialogImpl" timestamp="1594086789443">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585495364620" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585495364619">
+    <state x="545" y="177" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594086789443" />
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1593833108739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585495364619" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585495364619">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593833108739" />
+    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1593833108739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585495364619" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585495364619">
+    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593833108739" />
+    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1593833108739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585495364619" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1585458990023">
+    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593833108739" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1593833108739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585458990023" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593833108739" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1593079224647">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593079224647" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586145528281">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1586145528281" />
     <state x="454" y="82" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585459668020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="82" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1585459668020" />
-    <state x="48" y="54" key="new project wizard" timestamp="1584063349117">
+    <state x="48" y="0" key="new project wizard" timestamp="1588301897485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="48" y="54" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584063349117" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585493626660">
+    <state x="48" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588301897485" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593399718945">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585493626660" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593399718945" />
   </component>
 </project>
