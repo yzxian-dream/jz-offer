@@ -45,7 +45,7 @@ public class Title1 {
         if (cols == 0) {
             return false;
         }
-        // 左下
+        // 左下。
         int row = rows - 1;
         int col = 0;
         while (row >= 0 && col < cols) {
