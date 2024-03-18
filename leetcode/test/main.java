@@ -62,36 +62,32 @@ s.length <= 40000
 
 
  */
-
-
-
 class Solution {
-  public List<List<Integer>> combinationSum(int[] candidates, int target) {
-    List<List<Integer>> res = new ArrayList<>();
-    List<Integer> list = new ArrayList<>();
-    if (candidates.length <= 0) {
-      return res;
+  public int largestRectangleArea(int[] heights) {
+    int len = heights.length;
+    Stack<Integer> monoStack = new Stack<>();
+    int[] left = new int[len];
+    int[] right = new int[len];
+    for (int i = 0; i < len; i++) {
+      while (!monoStack.isEmpty() && heights[monoStack.peek()]>heights[i] ) {
+        monoStack.pop();
+      }
+      left[i] = monoStack.isEmpty() ? -1:monoStack.peek();
+      monoStack.push(i);
     }
-    dfs(res, list, candidates, target, target);
+    monoStack.clear();
+    //找出右侧最近且小于当前柱子的下标
+    for (int i = len-1; i >= 0; i--) {
+      while (!monoStack.isEmpty() && heights[monoStack.peek()] >= heights[i]) {
+        monoStack.pop();
+      }
+      right[i] = monoStack.isEmpty() ? len:monoStack.peek();
+      monoStack.push(i);
+    }
+    int res = 0;
+    for (int i = 0; i < len; i++) {
+      res = Math.max(res, (right[i]-left[i]-1)*heights[i]);
+    }
     return res;
   }
-
-  public void dfs(List<List<Integer>> res,List<Integer> list,int[] candidates,int target,int index){
-    if (target < 0) {
-      return;
-    }
-    if (target == 0) {
-      res.add(new ArrayList<>(list));
-      return;
-    }
-    for (int i = 0; i < candidates.length; i++) {
-      target-= candidates[i];
-      list.add(candidates[i]);
-      dfs(res, list, candidates, target,i);
-      list.remove(list.size()-1);
-    }
-  }
-
-
-    
 }

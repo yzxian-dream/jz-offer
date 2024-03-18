@@ -49,8 +49,31 @@ public class main {
     private void dfs(int[] nums, int len, int depth,
                      List<Integer> path, boolean[] used,
                      List<List<Integer>> res) {
+    /*
+     * if (depth == len) {
+    res.add(path);
+    return;
+}
+变量 path 所指向的列表 在深度优先遍历的过程中只有一份 ，深度优先遍历完成以后，回到了根结点，成为空列表。
+
+在 Java 中，参数传递是 important 值传递，对象类型变量在传参的过程中，复制的是变量的地址。这些地址被添加到 res 变量，但实际上指向的是同一块内存地址，因此我们会看到 6 个空的列表对象。解决的方法很简单，在 res.add(path); 这里做一次拷贝即可。
+
+修改的部分：
+
+Java
+Python
+if (depth == len) {
+    res.add(new ArrayList<>(path));
+    return;
+}
+
+     */
+        // if (depth == len) {
+        //     res.add(path);
+        //     return;
+        // }
         if (depth == len) {
-            res.add(path);
+            res.add(new ArrayList<>(path));
             return;
         }
 
